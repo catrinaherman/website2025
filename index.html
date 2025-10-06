@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color:blue; font-size: 36px";>Hello World!</h1>
+
+    <h3>A subtitle</h3>
+
+    <button id = "navigateButton">Go to another page.</button>
+    <script>
+        const navigateButton = document.getElementById("navigateButton");
+        navigateButton.addEventListener("click", function() {
+            window.location.href = "test.html"
+        })
+    </script>
+
+    <p id = "main">My name is Catrina.</p>
+
+    <p class="A">Today is a <b>good day.</b></p>
+
+    <p>I will get an A in <i>DS4200.</i></p>
+
+    <a href="https://www.northeastern.edu">Please check my university website.</a>
+
+    <ul class = "A">
+        <li>Talk to my TAs.</li>
+        <li>Regrade your quiz.</li>
+        <li>Read some papers.</li>
+    </ul>
+
+    <img src="https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/10-intelligent-dog-breeds/golden-retriever-tongue-out.jpg?h=430&w=710&hash=7FEB820D235A44B76B271060E03572C7" alt="" width="500">
+
+
+</body>
+</html>
